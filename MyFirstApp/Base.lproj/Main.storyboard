@@ -25,9 +25,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="tswift1" translatesAutoresizingMaskIntoConstraints="NO" id="pNq-cS-PbQ">
-                                <rect key="frame" x="49" y="217" width="293" height="410"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mpy-WS-3ly">
                                 <rect key="frame" x="99" y="635" width="193" height="71"/>
                                 <state key="normal" title="Button"/>
@@ -36,6 +33,9 @@
                                     <action selector="change:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dCk-tQ-g2N"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="tswift1" translatesAutoresizingMaskIntoConstraints="NO" id="pNq-cS-PbQ">
+                                <rect key="frame" x="41" y="166" width="293" height="410"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
